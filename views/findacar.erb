@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Teen Car</title>
+      <link rel="stylesheet" type="text/css" href="css/styles.css">
+      <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Libre Baskerville' rel='stylesheet'>
+    <link rel = 'stylesheet' href= "stylesheets/stylesheet.css">
+<style>
+h3 {
+    font-family: 'Raleway';
+    font-size: 25px;
+    color: #49664d;
+}
+  button {
+    font-family: 'Raleway';
+}
+  body {
+    font-family: 'Libre Baskerville';
+    font-size: 25px;
+}
+</style>
+    <title>Safe Auto Homepage</title>
+  </head>
+  <body>
+    <img src="http://i64.tinypic.com/aa6br.png">
+    
+    <a href = "/"><button class="tablink" onclick="openPage('Home', this, '#b9c4b8')">Home</button></a>
+<a href = "/stats"><button class="tablink" onclick="openPage('Stats', this, '#b9c4b8')" id="defaultOpen">Stats</button></a>
+<a href = "/findacar"><button class="tablink" onclick="openPage('FindACar', this, '#b9c4b8')">Find A Car</button></a>
+<a href = "/about"><button class="tablink" onclick="openPage('About', this, '#b9c4b8')">About</button></a>
+    <div class="container">
+      <h1 class="header">Find A Car</h1>
+
+      <h4 class="caption"> Find a good car for you!</h4>
+      <div class="question">
+      <form action="/results" method="post">
+      <h2>What is your price range?</h2>
+        <input type="radio" name="price" value = 1>$0 - $7,500<br>
+        <input type="radio" name="price" value = 2>$7,500 - $10,000<br>
+        <input type="radio" name="price" value = 3>$10,000 - $15,000<br>
+        <input type="radio" name="price" value = 4>$15,000 +<br>
+
+        <h2>What type of car?</h2>
+        <input type="radio" name="style" value = 1>Sedan <br>
+        <input type="radio" name="style" value = 2>SUV <br>
+        <input type="radio" name="style" value = 3>Hatchback <br>
+        <h2> Which brand would you like? </h2>
+          <input type="radio" name="brand" value = 1>Subaru<br>
+          <input type="radio" name="brand" value = 2>Ford<br>
+          <input type="radio" name="brand" value = 3>Toyota<br>
+          <input type="radio" name="brand" value = 4>Honda<br>
+          <input type="radio" name="brand" value = 5>Hyundai<br>
+          <br>
+           <button type = "submit" class="submitbutton">Find A Car! </button>
+      </form>
+    </div>
+  </div>
+
+  </body>
+</html>
+
+
