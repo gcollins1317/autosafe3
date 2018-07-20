@@ -1,3 +1,6 @@
+require 'bundler' 
+Bundler.require 
+
 class ApplicationController < Sinatra::Base
 
  configure do
