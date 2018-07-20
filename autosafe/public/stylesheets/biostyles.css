@@ -1,0 +1,30 @@
+h1 {
+  text-align: center
+}
+
+p {
+  font-size: 1.4em;
+
+}
+
+p1{font-size: 1.25em;}
+
+a {
+    color: #49664d
+
+}
+
+li {
+  color: #49664d;
+  font-size: 1.3em;
+}
+
+body {
+  background-color: #cdd6cf;
+  color: #49664d
+}
+
+.column {
+     width:290px;
+     float:left;
+}

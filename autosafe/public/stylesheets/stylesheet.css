@@ -1,0 +1,64 @@
+h1 {
+  text-align: center;
+}
+
+p {
+  font-size: 1.3em;
+  color: #49664d;
+}
+
+body {
+  background-color: #cdd6cf;
+  color: #49664d;
+}
+
+body, html {
+  font-size: 20px;
+  height: 100%;
+  margin: 30;
+  font-family: Raleway;
+}
+
+a {
+  color: #49664d;
+}
+
+
+/* Style tab links */
+.tablink {
+  background-color: #f7f6e3;
+  color: #17381e;
+  float: left;
+  border: white;
+  outline: #b9c4b8;
+  cursor: pointer;
+  padding: 20px 16px;
+  font-size: 30px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: #b9c4b8;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+.submitbutton {
+  font-family: 'Libre Baskerville', cursive;
+  -webkit-border-radius: 30;
+ -moz-border-radius: 46;
+ border-radius: 35px;
+ color: #17381e;
+ font-size: 30px;
+ background: #f7f6e3;
+ padding: 10px 20px 10px 20px;
+ border: solid #17381e 3px;
+ text-decoration: none;
+
+}
