@@ -11,4 +11,4 @@ gem 'pry'
 
 gem 'sinatra'
 
-gem 'heroku'
+#gem 'heroku'
